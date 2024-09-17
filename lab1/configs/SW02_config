@@ -15,7 +15,6 @@ add bridge=br_v10 interface=vlan10
 add bridge=br_v10 interface=vlan10_2
 /ip address
 add address=172.31.255.30/30 interface=ether1 network=172.31.255.28
-add address=10.10.10.4/24 interface=br_v10 network=10.10.10.0
 /ip dhcp-client
 add disabled=no interface=ether1
 add disabled=no interface=br_v10
