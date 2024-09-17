@@ -1,0 +1,38 @@
+name: enterprise-network
+mgmt:
+  network: mgmt-net
+  ipv4_subnet: 192.168.100.0/24
+
+topology:
+  nodes:
+    r1:
+      kind: vr-ros
+      image: docker.io/iparchitechs/chr:stable
+      mgmt_ipv4: 192.168.100.2
+    sw1:
+      kind: vr-ros
+      image: docker.io/iparchitechs/chr:stable
+      mgmt_ipv4: 192.168.100.3
+    sw2:
+      kind: vr-ros
+      image: docker.io/iparchitechs/chr:stable
+      mgmt_ipv4: 192.168.100.4
+    sw3:
+      kind: vr-ros
+      image: docker.io/iparchitechs/chr:stable
+      mgmt_ipv4: 192.168.100.5
+    pc1:
+      kind: linux
+      image: ubuntu
+      mgmt_ipv4: 192.168.100.6
+    pc2:
+      kind: linux
+      image: ubuntu
+      mgmt_ipv4: 192.168.100.7
+
+  links:
+    - endpoints: ["sw2:eth3", "sw1:eth1"]
+    - endpoints: ["r1:eth1", "sw2:eth1"]
+    - endpoints: ["sw1:eth2", "pc1:eth1"]
+    - endpoints: ["sw2:eth2", "sw3:eth1"]
+    - endpoints: ["sw3:eth2", "pc2:eth1"]
