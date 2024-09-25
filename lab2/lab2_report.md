@@ -18,7 +18,7 @@ Date of finished: 25.09.2024
 
 Потом были расписаны адреса сетей и интерфейсов
 
-![адреса](images/ROUTING.png)
+![адреса](images/ROUTING2.png)
 
 ## Настройка 
 
