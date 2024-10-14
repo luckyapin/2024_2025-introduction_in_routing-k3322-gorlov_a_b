@@ -43,5 +43,5 @@ Date of finished: 16.10.2024
 
 ## Результаты пингов после настройки EoMPLS(VPLS)
 
-### PC1 -> SG_PRISM и SG_PRISM -> PC1
-![PC1 -> SG_PRISM and SG_PRISM -> PC1](images/PC.png)
+### PC1 -> SGI_PRISM и SGI_PRISM -> PC1
+![PC1 -> SGI_PRISM and SGI_PRISM -> PC1](images/PC.png)
