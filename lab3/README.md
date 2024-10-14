@@ -10,7 +10,7 @@ Group: K3322
 
 Author: Gorlov Andrey Borisovich
 
-Lab: Lab2
+Lab: [Lab3](https://itmo-ict-faculty.github.io/introduction-in-routing/education/labs2023_2024/lab3/lab3/#_4)
 
 Date of create: 14.10.2024
 
