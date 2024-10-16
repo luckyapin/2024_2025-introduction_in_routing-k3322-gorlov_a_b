@@ -30,7 +30,7 @@ add address=10.10.66.2/24 interface=vpn network=10.10.66.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /ip dhcp-server network
-add address=10.10.66.0/24 dns-server=8.8.8.8,8.8.4.4 gateway=10.10.66.1
+add address=10.10.66.0/29 dns-server=8.8.8.8,8.8.4.4 gateway=10.10.66.1
 /mpls ldp
 set enabled=yes lsr-id=172.16.1.2 transport-address=172.16.1.2
 /mpls ldp interface
