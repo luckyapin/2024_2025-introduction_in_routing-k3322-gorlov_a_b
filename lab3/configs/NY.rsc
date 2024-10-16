@@ -23,7 +23,7 @@ add address=172.16.6.2 interface=loopback0 network=172.16.6.2
 add address=172.16.8.102/30 interface=ether3 network=172.16.8.100
 add address=172.16.9.101/30 interface=ether4 network=172.16.9.100
 add address=172.16.2.102/30 interface=ether5 network=172.16.2.100
-add address=10.10.66.1/29 interface=vpn network=10.10.66.0
+add address=10.10.66.1/24 interface=vpn network=10.10.66.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /mpls ldp
