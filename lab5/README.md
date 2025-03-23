@@ -37,3 +37,22 @@ Date of finished: 26.03.2025
 
 ![image](https://github.com/user-attachments/assets/02edcf7f-0bd8-48d7-bbe2-3ddc20ccd6ef)
 
+Через winbox закидваем файл
+
+![image](https://github.com/user-attachments/assets/56e5cbbf-b011-4332-8291-3fd32d1aa4c7)
+
+
+И нажимаем import .ovpn
+
+![image](https://github.com/user-attachments/assets/209e79e5-34a2-4867-ba77-c97101ea05e2)
+
+Пингуем сервер
+
+![image](https://github.com/user-attachments/assets/25426b6d-9b15-4359-9c45-a9699ae34c4f)
+
+
+Устанавливаем ansible
+![image](https://github.com/user-attachments/assets/d3c48e61-2569-456c-8db2-32807072e141)
+
+и Python 
+![image](https://github.com/user-attachments/assets/805f62cf-4e49-437f-af4b-fb524e61eda2)
